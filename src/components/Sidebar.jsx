@@ -3,7 +3,7 @@ import { TbSmartHome } from "react-icons/tb";
 import { CgProfile } from "react-icons/cg";
 import { TbUsers } from "react-icons/tb";
 import { TbCalendarCheck } from "react-icons/tb";
-import { RiMoneyDollarBoxLine } from "react-icons/ri";
+import { LuWallet } from "react-icons/lu";
 import { FiClock } from "react-icons/fi";
 import { HiOutlineBriefcase } from "react-icons/hi";
 import { BiHelpCircle } from "react-icons/bi";
@@ -33,7 +33,7 @@ const Sidebar = () => {
                         <TbCalendarCheck size={iconSize} className="text-icon-primary"/>
                     </div>
                     <div className="p-2">
-                        <RiMoneyDollarBoxLine size={iconSize} className="text-icon-primary"/>
+                        <LuWallet size={iconSize} className="text-icon-primary"/>
                     </div>
                     <div className="p-2">
                         <FiClock size={iconSize} className="text-icon-primary"/>
