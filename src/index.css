@@ -1,0 +1,41 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Your custom styles go here */
+* {
+    box-sizing: border-box;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px #F4F4F5;
+    border-left: solid 2px #F4F4F5;
+    border-right: solid 2px #F4F4F5;
+    border-bottom-right-radius: .75rem;
+    border-bottom-left-radius: .75rem;
+}
+
+.pagination li {
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.pagination a {
+    font-weight: 600;
+    padding-block: 16px;
+    padding-inline: 10px;
+    border-radius: 8px;
+}
+
+.pagination li:hover:not(.previous):not(.next) {
+    background-color: #F4F4F5;
+    border-radius: 8px;
+}
+
+.pagination .active {
+    border: solid 1.5px #F4F4F5;
+    border-radius: 8px;
+}

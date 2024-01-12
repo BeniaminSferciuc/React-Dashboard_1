@@ -1,0 +1,30 @@
+.checkbox {
+    appearance: none;
+    width: 20px;
+    aspect-ratio: 1;
+    background-color: #fff;
+    border-radius: 7px;
+    display: inline-block;
+    vertical-align: center;
+    position: relative;
+    border: solid 1.75px #eae9ef;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    border: solid 1.75px #493EF2;
+    background-color: #1900fd17;
+}
+
+.checkbox::before {
+    position: absolute;
+    content: '';
+    inset: 2px;
+    background-image: url('../assets/Line.svg');
+    background-size: contain;
+    display: none;
+}
+
+.checkbox:checked::before {
+    display: inline-block;
+}
