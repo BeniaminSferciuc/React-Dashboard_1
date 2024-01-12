@@ -3,8 +3,8 @@ import { FaLongArrowAltUp } from "react-icons/fa";
 
 const Activity = () => {
     return (
-        <div className="flex gap-4 p-4">
-            <div className="border-2 border-secondary rounded-xl p-4 flex-1 flex flex-col justify-between">
+        <div className="flex gap-4 p-4 flex-wrap">
+            <div className="border-2 border-secondary rounded-xl p-4 flex-1 flex flex-col justify-between basis-[250px]">
                 <div className="flex justify-between items-center">
                     <h1 className="font-bold">Target Overview</h1>
                     <BsThreeDotsVertical className="text-icon-primary" />
@@ -32,7 +32,7 @@ const Activity = () => {
                     </div>
                 </div>
             </div>
-            <div className="border-2 border-secondary rounded-xl p-4 flex-1 flex flex-col justify-between">
+            <div className="border-2 border-secondary rounded-xl p-4 flex-1 flex flex-col justify-between basis-[250px]">
                 <div className="flex justify-between items-center">
                     <h1 className="font-bold">Total Projects</h1>
                     <BsThreeDotsVertical className="text-icon-primary" />
@@ -57,7 +57,7 @@ const Activity = () => {
                     </div>
                 </div>
             </div>
-            <div className="border-2 border-secondary rounded-xl p-4 flex-1">
+            <div className="border-2 border-secondary rounded-xl p-4 flex-1 basis-[250px]">
                 <div className="flex justify-between items-center">
                     <h1 className="font-bold">New Leads</h1>
                     <BsThreeDotsVertical className="text-icon-primary" />
