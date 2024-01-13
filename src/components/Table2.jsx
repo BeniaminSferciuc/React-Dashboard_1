@@ -22,7 +22,7 @@ const Table = () => {
     );
 
     return (
-        <div>
+        <div className="">
             <table className="w-full">
                 <thead className="text-left bg-secondary border-x-2 border-secondary">
                     <tr className="text-xs text-text-secondary px-4">
@@ -99,7 +99,7 @@ const Table = () => {
                 nextLabel={<NextButton />}
                 breakLabel={"..."}
                 pageCount={Math.ceil(data.length / itemsPerPage)}
-                pageRangeDisplayed={2}
+                pageRangeDisplayed={1}
                 marginPagesDisplayed={2}
                 onPageChange={handlePageChange}
                 containerClassName={"pagination"}
